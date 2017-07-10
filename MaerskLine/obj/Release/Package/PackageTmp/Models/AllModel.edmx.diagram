@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c8e320b79c1341f0b25e45f5c1bb2663" Name="Diagram1" ZoomLevel="120">
+        <EntityTypeShape EntityType="MaerskLineModel.Booking" Width="1.5" PointX="4" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MaerskLineModel.Cargo" Width="1.5" PointX="3.875" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MaerskLineModel.Customer" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MaerskLineModel.Shipping" Width="1.5" PointX="6.375" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MaerskLineModel.Warehouse" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <AssociationConnector Association="MaerskLineModel.FK__Booking__CustID__2B3F6F97" ManuallyRouted="false" />
+        <AssociationConnector Association="MaerskLineModel.FK__Booking__Shippin__2C3393D0" ManuallyRouted="false" />
+        <AssociationConnector Association="MaerskLineModel.FK__Cargo__CustID__2D27B809" ManuallyRouted="false" />
+        <AssociationConnector Association="MaerskLineModel.FK__Cargo__Warehouse__2E1BDC42" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="MaerskLineModel.Admin" Width="1.5" PointX="10.5" PointY="1.5" />
+        <EntityTypeShape EntityType="MaerskLineModel.Agent" Width="1.5" PointX="10.625" PointY="3.625" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

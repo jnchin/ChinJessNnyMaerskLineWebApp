@@ -1,0 +1,34 @@
+﻿@model MaerskLine.Models.Shipping
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Shipping</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DepartDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DepartDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ArriveDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ArriveDate)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ShippingID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
